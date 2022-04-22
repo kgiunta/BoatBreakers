@@ -69,6 +69,7 @@ footer {
     align-items: center;
     justify-content: center;
     height: 60vh;
+    width: auto;
     letter-spacing: 1px;
     line-height: 2;
   }
