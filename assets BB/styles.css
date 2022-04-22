@@ -15,7 +15,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 80vh;
   letter-spacing: 1px;
   line-height: 2;
 }
@@ -57,4 +57,45 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 600px) {
+  .titleOne {
+    font-family: "Cairo";
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    letter-spacing: 1px;
+    line-height: 2;
+  }
+
+  h1 {
+    background-image: url(https://media0.giphy.com/media/r2DZ7c7zrY1jO/giphy.gif?cid=ecf05e47us51co7vfjwpnnc3yzh6yugvvn3hkoytc2g114u6&rid=giphy.gif&ct=g;);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 60px;
+    margin: 10px 0;
+  }
+  .white-mode {
+    text-decoration: none;
+    padding: 7px 10px;
+    background-color: #122;
+    border-radius: 3px;
+    color: #fff;
+    transition: 0.35s ease-in-out;
+    left: 15px;
+    bottom: 15px;
+    font-family: "Montserrat";
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 10rem;
+  }
 }
