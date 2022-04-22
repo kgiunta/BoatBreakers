@@ -7,7 +7,7 @@ body {
   );
 }
 
-.title {
+.titleOne {
   font-family: "Cairo";
   text-align: center;
   color: #fff;
@@ -39,15 +39,22 @@ h1 {
   border-radius: 3px;
   color: #fff;
   transition: 0.35s ease-in-out;
-  position: absolute;
   left: 15px;
   bottom: 15px;
   font-family: "Montserrat";
   margin: auto;
   width: 20%;
+  text-align: center;
+  margin-bottom: 10rem;
 }
 
 .white-mode:hover {
   background-color: #fff;
   color: #122;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
